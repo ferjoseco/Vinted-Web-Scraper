@@ -49,7 +49,6 @@ The script will open a headless browser, gather prices, and print an average as 
 - “No prices found”:
   - Check spelling of brand/description
   - Try different condition
-  - Vinted’s layout can change; try again later
 - “Check your internet connection and try again.”
   - Ensure you’re online and retry
 - Chrome issues
@@ -58,8 +57,3 @@ The script will open a headless browser, gather prices, and print an average as 
 ### Notes
 - The search URL is built from your brand, description and condition; results depend on Vinted’s current structure.
 - Headless mode is enabled by default. If you want to view the browser, set `headless=False` in `setup_driver()`.
-
-### License
-MIT (add your preferred license if different)
-
-
